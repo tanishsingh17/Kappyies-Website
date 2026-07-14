@@ -16,7 +16,7 @@ app.use(helmet());
 // CORS
 app.use(
   cors({
-    origin: "https://kappyies-website.vercel.app/",
+    origin: "https://kappyies-website.vercel.app",
     methods: ["GET", "POST"],
   })
 );

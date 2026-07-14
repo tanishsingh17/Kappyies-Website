@@ -2,6 +2,10 @@ import { useState } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
 
+
+const API_URL = import.meta.env.VITE_API_URL ;
+
+
 const WhitelistForm = () => {
   const [walletAddress, setWalletAddress] = useState("");
   const [loading, setLoading] = useState(false);
@@ -17,7 +21,7 @@ const WhitelistForm = () => {
       setLoading(true);
 
       const { data } = await axios.post(
-        "http://localhost:5000/api/whitelist",
+        `${API_URL}/api/whitelist`,
         {
           walletAddress,
         }

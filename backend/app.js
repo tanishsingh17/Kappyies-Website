@@ -16,7 +16,7 @@ app.use(helmet());
 // CORS
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://kappyies-website.vercel.app/",
     methods: ["GET", "POST"],
   })
 );

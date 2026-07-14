@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #080b14;
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  cursor: none;
+}
+
+a,
+button {
+  cursor: none;
+}
+
+@theme {
+  --font-bangers: 'Bangers', cursive;
+  --font-uncial: 'Uncial Antiqua', cursive;
+  --font-montenegrin: 'Montenegrin Gothic One', cursive;
+  --font-merienda: 'Merienda', cursive;
+  --font-rakkas: 'Rakkas', cursive;
+}

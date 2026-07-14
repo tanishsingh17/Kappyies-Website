@@ -61,7 +61,7 @@ const WhitelistForm = () => {
             </label>
 
             <a
-              href="https://x.com/"
+              href="https://x.com/Kappyies"
               target="_blank"
               rel="noreferrer"
               className="block w-full bg-blue-500 hover:bg-blue-600 text-center py-3 rounded-xl font-semibold text-white"
@@ -77,7 +77,7 @@ const WhitelistForm = () => {
             </label>
 
             <a
-              href="https://x.com/"
+              href="https://x.com/Kappyies"
               target="_blank"
               rel="noreferrer"
               className="block w-full bg-pink-500 hover:bg-pink-600 text-center py-3 rounded-xl font-semibold text-white"

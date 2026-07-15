@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
-
 import LoadingScreen from "./components/LoadingScreen";
 import CustomCursor from "./components/CustomCursor";
 import Home from "./pages/Home";
@@ -12,17 +11,13 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
-
     const timer = setTimeout(() => {
       setLoading(false);
     }, 2800);
-
     return () => clearTimeout(timer);
-
   }, []);
 
   useEffect(() => {
-
     if (location.hash) {
       const el = document.querySelector(location.hash);
       if (el) {
@@ -30,9 +25,7 @@ function App() {
         return;
       }
     }
-
     window.scrollTo(0, 0);
-
   }, [location.pathname, location.hash]);
 
   if (loading) {
@@ -42,13 +35,11 @@ function App() {
   return (
     <>
       <CustomCursor />
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/whitelist" element={<Whitelist />} />
       </Routes>
     </>
-
   );
 }
 

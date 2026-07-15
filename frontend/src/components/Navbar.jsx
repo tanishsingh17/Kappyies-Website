@@ -18,26 +18,26 @@ const Navbar = () => {
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-8">
 
-          <a
-            href="#about"
+          <Link
+            to="/#about"
             className="text-gray-300 hover:text-yellow-400 transition"
           >
             About
-          </a>
+          </Link>
 
-          <a
-            href="#collection"
+          <Link
+            to="/#collection"
             className="text-gray-300 hover:text-yellow-400 transition"
           >
             Collection
-          </a>
+          </Link>
 
-          <a
-            href="#roadmap"
+          <Link
+            to="/#roadmap"
             className="text-gray-300 hover:text-yellow-400 transition"
           >
             Roadmap
-          </a>
+          </Link>
 
         </nav>
 

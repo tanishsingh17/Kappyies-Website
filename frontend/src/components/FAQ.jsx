@@ -59,9 +59,7 @@ const FAQ = () => {
         </motion.div>
 
         <div className="mt-16 space-y-5">
-
           {faqs.map((faq, index) => (
-
             <div
               key={index}
               className="bg-[#131A2A] rounded-2xl border border-cyan-500/20 overflow-hidden"
@@ -77,7 +75,6 @@ const FAQ = () => {
                 <h3 className="text-white text-xl font-semibold">
                   {faq.question}
                 </h3>
-
                 <span className="text-cyan-400 text-3xl">
                   {active === index ? "-" : "+"}
                 </span>
@@ -85,9 +82,7 @@ const FAQ = () => {
               </button>
 
               <AnimatePresence>
-
                 {active === index && (
-
                   <motion.div
                     initial={{ height: 0, opacity: 0 }}
                     animate={{
@@ -100,25 +95,15 @@ const FAQ = () => {
                     }}
                     transition={{ duration: 0.3 }}
                   >
-
                     <div className="px-6 pb-6 text-gray-400 leading-8">
-
                       {faq.answer}
-
                     </div>
-
                   </motion.div>
-
                 )}
-
               </AnimatePresence>
-
             </div>
-
           ))}
-
         </div>
-
       </div>
     </section>
   );

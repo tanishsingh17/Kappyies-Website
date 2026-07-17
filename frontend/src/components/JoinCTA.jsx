@@ -43,7 +43,7 @@ const JoinCTA = () => {
             </Link>
 
             <a
-              href="https://x.com/Kappyies"
+              href="https://x.com/kappyies_"
               target="_blank"
               rel="noreferrer"
               className="border border-cyan-400 text-cyan-400 px-10 py-4 rounded-2xl hover:bg-cyan-400 hover:text-black transition"

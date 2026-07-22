@@ -77,7 +77,7 @@ const WhitelistForm = () => {
             </label>
 
             <a
-              href="https://x.com/kappyies_/status/2079614257868472742?s=20"
+              href="https://x.com/kappyies_/status/2079958355800473802?s=20"
               target="_blank"
               rel="noreferrer"
               className="block w-full bg-pink-500 hover:bg-pink-600 text-center py-3 rounded-xl font-semibold text-white"
